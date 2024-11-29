@@ -28,11 +28,17 @@ Phương pháp phát triển phần mềm theo mô hình tiếp cận lặp (ite
 
 # Các bước chạy dự án trên máy local:
 B1: Tạo database có tên SpringWeb trong hệ cơ sở dữ liệu MySQL
+
 B2: Vào tệp application.properties chỉnh sửa các thành phần sau
-  spring.datasource.url: thay đổi port của MySQL tương ứng trên máy đang sử dụng (mặc định: 3306)
-  spring.datasource.username: thay đổi thành username tương ứng trên máy đang sử dụng
-  spring.datasource.password: thay đổi thành password tương ứng trên máy đang sử dụng
+
+    spring.datasource.url: thay đổi port của MySQL tương ứng trên máy đang sử dụng (mặc định: 3306)
+    
+    spring.datasource.username: thay đổi thành username trên hệ cơ sở dữ liệu MySQL tương ứng trên máy đang sử dụng
+    
+    spring.datasource.password: thay đổi thành password trên hệ cơ sở dữ liệu MySQL tương ứng trên máy đang sử dụng
+  
 B3: Nhấn chạy chương trình trên ứng dụng IntelliJ (các thư viện đã được cài đặt và quản lý bằng maven)
+
 B4: Chương trình chạy thành công
 
 I- Product
