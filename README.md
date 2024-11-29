@@ -41,7 +41,9 @@ B3: Nhấn chạy chương trình trên ứng dụng IntelliJ (các thư viện 
 
 B4: Chương trình chạy thành công
 
-I- Product
+# Snapshot Postman
+Chú ý: Các tham số về số trang(size) và index(page) đều có giá trị mặc định khi không truyền vào
+## I- Product
   1) Get Products By Keyword
      <img width="870" alt="Screenshot 2024-11-29 at 9 02 16 PM" src="https://github.com/user-attachments/assets/759f0e59-c578-43aa-aef7-a2280bc7b3e5">
      <img width="847" alt="Screenshot 2024-11-29 at 9 04 36 PM" src="https://github.com/user-attachments/assets/9137ddab-419f-4a48-afc9-36c32748070d">
@@ -61,27 +63,33 @@ I- Product
      <img width="840" alt="Screenshot 2024-11-29 at 9 20 39 PM" src="https://github.com/user-attachments/assets/09ffb63a-fbed-4b46-81a7-6b56f75a201e">
      
   6) Get Product By Id
+     
       ** Required authentication **
       <img width="852" alt="Screenshot 2024-11-29 at 9 24 49 PM" src="https://github.com/user-attachments/assets/623629bc-c861-4424-9b58-e7d1a6a494f9">
 
   7) Insert Product
+     
       ** Required authentication **
       <img width="850" alt="Screenshot 2024-11-29 at 9 29 34 PM" src="https://github.com/user-attachments/assets/0bb4ee3a-36a9-47b5-9377-533c1b9347f4">
 
   8) Delete Product
+     
       ** Required authentication **
       <img width="847" alt="Screenshot 2024-11-29 at 9 30 07 PM" src="https://github.com/user-attachments/assets/0ce14ec3-820b-4e4d-9af1-4e31e5c31388">
 
   9) Update Product
+      
       ** Required authentication **
       <img width="849" alt="Screenshot 2024-11-29 at 9 30 36 PM" src="https://github.com/user-attachments/assets/31ed4da6-1169-4801-af49-b06510186ce7">
 
-II- Order
+## II- Order
   1) Get Orders
+     
      ** Required authentication **
      <img width="841" alt="Screenshot 2024-11-29 at 9 43 28 PM" src="https://github.com/user-attachments/assets/bb24bc58-5e2a-4fbb-9857-cb6015da28ad">
 
   2) Insert order
+     
      ** Error Message While Inputting Name With Wrong Format **
      <img width="843" alt="Screenshot 2024-11-29 at 9 34 13 PM" src="https://github.com/user-attachments/assets/e5a8b988-b7f0-4505-b903-cddd35877833">
      ** Error Message When Name Is Empty **
@@ -103,7 +111,7 @@ II- Order
      ** Required authentication **
      <img width="854" alt="Screenshot 2024-11-29 at 9 45 18 PM" src="https://github.com/user-attachments/assets/e9f2a80a-7974-4e09-8efb-6b7ba59747e1">
 
-III- Cart
+## III- Cart
   1) Insert Item Cart
      ** Store Product In Cart By Id **
      <img width="858" alt="Screenshot 2024-11-29 at 9 48 46 PM" src="https://github.com/user-attachments/assets/b3cec314-d00e-4186-a401-705ac1160814">
@@ -114,6 +122,7 @@ III- Cart
 
 IV- User
   1) Insert user
+     
      ** Show register page **
      <img width="852" alt="Screenshot 2024-11-29 at 9 57 36 PM" src="https://github.com/user-attachments/assets/90574a79-4eb5-4f70-a631-5eadb1c1e7f1">
      ** Register Successfully Then Redirect To Login Page **
