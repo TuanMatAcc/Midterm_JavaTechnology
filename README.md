@@ -2,7 +2,7 @@
 # Các nguyên tắc, mô hình phát triển phần mềm và thực tiễn áp dụng:
 
 ## Nguyên tắc phát triển phần mềm:
-  Nguyên tắc thiết kế phần mềm KISS làm cho phần mềm trở nên đơn giản hơn bằng việc chia nhỏ các nhiệm vụ, điều kiện thành những thành phần .
+  Nguyên tắc thiết kế phần mềm KISS làm cho phần mềm trở nên đơn giản hơn bằng việc chia nhỏ các nhiệm vụ, điều kiện thành những thành phần nhỏ hơn.
   Nguyên tắc đảo ngược phụ thuộc (dependency injection).
   Nguyên tắc khuyến khích sử dụng mã nguồn được tái sử dụng để giảm sự lặp lại và duy trì sự nhất quán trong mã nguồn.
 ## Mẫu phát triển phần mềm:
@@ -25,6 +25,15 @@ Phương pháp phát triển phần mềm theo mô hình tiếp cận lặp (ite
       Service: Chứa các inteface của của các Repository để thực hiện các thao tác trên cơ sở dữ liệu và đồng thời xử lý nghiệp vụ cho các dữ liệu được truyền từ người dùng thông qua lớp Controller
       
       Security: Chứa các cấu hình liên quan đến bảo mật sử dụng Spring Security để thực hiện xác thực người dùng và phân quyền người dùng
+
+# Các bước chạy dự án trên máy local:
+B1: Tạo database có tên SpringWeb trong hệ cơ sở dữ liệu MySQL
+B2: Vào tệp application.properties chỉnh sửa các thành phần sau
+  spring.datasource.url: thay đổi port của MySQL tương ứng trên máy đang sử dụng (mặc định: 3306)
+  spring.datasource.username: thay đổi thành username tương ứng trên máy đang sử dụng
+  spring.datasource.password: thay đổi thành password tương ứng trên máy đang sử dụng
+B3: Nhấn chạy chương trình trên ứng dụng IntelliJ (các thư viện đã được cài đặt và quản lý bằng maven)
+B4: Chương trình chạy thành công
 
 I- Product
   1) Get Products By Keyword
